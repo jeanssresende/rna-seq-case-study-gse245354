@@ -20,6 +20,28 @@ The lessons are organized as a sequence of scripts that progressively introduce 
 
 ---
 
+## Getting Started
+
+Clone this repository:
+
+```bash
+git clone https://github.com/jeanssresende/rna-seq-case-study-gse245354.git
+```
+
+Open the project in RStudio and execute:
+
+```r
+scripts/01_download_data.R
+```
+
+The script will automatically:
+
+- install required packages (if necessary);
+- create the project directory structure;
+- download the GSE245354 dataset into `data/raw/`.
+
+---
+
 ## Skills Covered
 
 - R Programming
