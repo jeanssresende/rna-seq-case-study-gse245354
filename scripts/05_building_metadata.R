@@ -92,7 +92,6 @@ metadata_clean <- metadata %>%
 
 metadata_clean
 
-
 # ==========================================================
 # Extracting the treatment
 # ==========================================================
@@ -131,7 +130,7 @@ metadata_clean
 # immediately after "min" or "hr".
 
 metadata_clean <- metadata_clean %>%
-  mutate(Donor = str_extract(Description, "(?<=min )\\d|(?<=hr )\\d"))
+  mutate(Donor = str_extract(Description, "(?<=30 min )\\d|(?<=1\\.5 hr )\\d"))
 
 metadata_clean
 
