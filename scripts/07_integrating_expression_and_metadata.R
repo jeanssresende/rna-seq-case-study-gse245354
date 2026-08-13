@@ -133,9 +133,10 @@ metadata %>%
 # Selecting one gene
 # ==========================================================
 
-gene_expression <- expression_long %>%
-  dplyr::filter(Gene.Symbol == "MALAT1")
+gene_name = "MALAT1"
 
+gene_expression <- expression_long %>%
+  dplyr::filter(Gene.Symbol == gene_name)
 
 gene_expression
 
