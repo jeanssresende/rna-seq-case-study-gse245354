@@ -1,4 +1,4 @@
-# RNA-Seq Case Study – GSE245354
+# Transcriptomics Case Studies – R & Bioinformatics
 
 [![R](https://img.shields.io/badge/R-4.5+-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
 [![Bioconductor](https://img.shields.io/badge/Bioconductor-3.22-019733?logo=bioconductor&logoColor=white)](https://bioconductor.org/)
